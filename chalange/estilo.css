@@ -1,0 +1,108 @@
+
+ 
+body{
+   background-color:  hsl(30, 38%, 92%);
+}
+.boxe
+{
+    position: relative;
+    background-color: rgb(255, 250, 250);
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    margin: auto;
+}
+.boxe img{
+    max-width:400px;
+    max-height:500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+h3{
+   padding-left: 370px;
+   position: absolute;
+   margin-top:-470px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 14px;
+}
+h4{
+    position: absolute;
+    padding-left: 370px;
+    margin-top:-310px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 3000;
+}
+
+h2 {
+    position: absolute;
+    line-height: 30px;
+    padding-left: 370px;
+    top: 50px;
+    font-family: 'Fraunces', serif;
+    text-align: left;
+    font-size: 30px;
+}
+h2#valor {
+    color: hsl(171, 56%, 38%);
+    position: absolute;
+    line-height: 30px;
+    padding-left: 370px;
+    top: 290px;
+    font-family: 'Fraunces', serif;
+    text-align: left;
+    font-size: 30px;
+}
+h2#desc {
+    color: hsl(160, 2%, 36%);
+    position: absolute;
+    line-height: 30px;
+    padding-left: 510px;
+    top: 305px;
+    font-family: 'Montserrat', serif;
+    text-align: left;
+    font-size: 14px;
+}
+button 
+{
+    box-sizing: content-box;
+    vertical-align: auto;
+    position: absolute;
+    top: 390px;
+    background-color:  hsl(171, 56%, 38%);
+    font-family: 'Montserrat';
+    border-radius:8px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    color: rgb(255, 255, 255);
+    left: 370px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+button:hover
+{
+    position: absolute;
+    background-color:  hsl(171, 87%, 18%);
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 18px;
+    border: none;
+    color: rgb(255, 255, 255);
+   
+}
+img#cart{
+   align-items: center;
+   vertical-align: auto;
+   width: 20px;
+   height: 20px;
+   border: 2px;
+   border-color: black;
+}
